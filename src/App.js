@@ -30,7 +30,9 @@ import './App.css';
 import UseClick from './hooks/UseClick';
 import UseConfirm from './hooks/UseConfirm';
 import UseEffect from './hooks/UseEffect';
+import UseFadaIn from './hooks/UseFadeIn';
 import UseInput from './hooks/UseInput';
+import UseNetwork from './hooks/UseNetwork';
 import UsePreventLeave from './hooks/UsePreventLeave';
 import UseState from './hooks/UseState';
 import UseTabs from './hooks/UseTabs';
@@ -45,7 +47,9 @@ function App(){
     // <UseTitle />
     // <UseClick />
     // <UseConfirm />
-    <UsePreventLeave />
+    // <UsePreventLeave />
+    // <UseFadaIn />
+    <UseNetwork />
   );
 }
 
